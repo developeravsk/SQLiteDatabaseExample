@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#23ff22"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" ID : "
+            android:layout_marginStart="8dp"
+
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/idd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="student id"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#23ff22" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NAME : "
+            android:layout_marginStart="8dp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="student name"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#23ff22" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NUMBER : "
+            android:layout_marginStart="8dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/paid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
